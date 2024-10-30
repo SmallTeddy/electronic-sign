@@ -17,24 +17,6 @@
 * **简单易用**：用户只需拖动鼠标或触摸屏幕即可签名。
 * **高度可定制**：可根据需要调整Canvas大小和样式。
 
-### 项目结构
-
-```
-
-electronic-sign/
-│
-├── src/                 # 源代码目录
-│   ├── index.html       # 主页面文件
-│   ├── style.css        # 样式文件
-│   └── script.js        # 脚本文件
-│
-├── dist/                # 构建输出目录
-│   └── bundle.js        # 压缩后的JavaScript文件
-│
-└── README.md            # 项目说明文件
-
-```
-
 ### 安装指南
 
 1. 克隆项目到本地：
@@ -64,14 +46,6 @@ electronic-sign/
 ```bash
    npm run build
    ```
-
-### 使用方法
-
-将 `src` 目录下的 `index.html` 、 `style.css` 和 `script.js` 文件包含到你的项目中，即可开始使用电子签名功能。
-
-### 自定义配置
-
-你可以通过修改 `style.css` 和 `script.js` 文件来自定义签名板的外观和行为。
 
 ### 贡献指南
 
